@@ -2,8 +2,8 @@
 The Python Crypto Library is a third-party library that provides cryptographic primitives and algorithms for Python programming language. It is also known as the PyCrypto library. The library supports a wide range of cryptographic algorithms and protocols, including symmetric and asymmetric encryption, digital signatures, hash functions, key derivation functions, and more.
 
 ### Task
-Fix the broken script rsa_sign.py, to enable it to sign the message correctly using the provided key `private.pem`.
-Note that the Key `private.pem` was generated using the following command:
+Fix the broken script `rsa_sign.py`, to enable it to sign the message hash correctly using the provided key `private.pem`.
+Note that the key `private.pem` was generated using the following command:
 
 ```
 key = RSA.generate(2048)
